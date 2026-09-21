@@ -4,12 +4,10 @@ Para instalar ToolKit en cualquier solución ejecutamos este comando en un CMD o
 
 Nuget en CMD o PowerShell:
 
-```dotnet add package CommunityToolkit.Maui```
-
-```dotnet add package CommunityToolkit.Maui.MediaElement```
+dotnet add package CommunityToolkit.Maui
+dotnet add package CommunityToolkit.Maui.MediaElement
 
 Package-Installer solo en PowerShell(Solo si el primero no te funciona):
 
-```Install-Package CommunityToolkit.Maui```
-
-```Install-Package CommunityToolkit.Maui.MediaElement```
+Install-Package CommunityToolkit.Maui
+Install-Package CommunityToolkit.Maui.MediaElement
