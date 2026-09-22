@@ -8,6 +8,11 @@ namespace App5
     {
         public static MauiApp CreateMauiApp()
         {
+
+
+// Encadenamos para poder hacer uso en los xaml,
+// especificando que el media este en el fondo
+// para Android evitando errores de ejecución.
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
